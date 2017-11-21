@@ -1,0 +1,18 @@
+.container {
+   font-family: 'Ropa Sans', sans-serif;
+   text-align: center;
+   svg {
+      .bar {
+         cursor: hand;
+         cursor: pointer;
+         &:hover {
+            stroke-width: .65;
+            stroke: black;
+         }
+      }
+      .axis-label {
+         fill: white;
+         font-size: 2em;
+      }
+   }
+}
